@@ -1,0 +1,226 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Hobbes",
+            "email": "hobbes@example.com",
+            "isStaff": true
+        },
+        {
+            "id": 2,
+            "name": "Ichigo",
+            "email": "ichigo@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "name": "Flux",
+            "email": "flux@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "name": "Yoru",
+            "email": "yoruhime@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "name": "Crimson",
+            "email": "crimbird@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 6,
+            "name": "Duck Paulson",
+            "email": "duckduck@example.com",
+            "isStaff": false
+        }
+    ],
+    "players": [
+        {
+            "id": 1,
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "userId": 3
+        },
+        {
+            "id": 4,
+            "userId": 4
+        },
+        {
+            "id": 5,
+            "userId": 5
+        },
+        {
+            "id": 6,
+            "userId": 6
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "name": "Brilliant Idiots"
+        },
+        {
+            "id": 2,
+            "name": "Trundletown Trio"
+        }
+    ],
+    "userGroups": [
+        {
+            "id": 1,
+            "userId": 1,
+            "groupId": 1
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "groupId": 2
+        },
+        {
+            "id": 3,
+            "userId": 2,
+            "groupId": 1
+        },
+        {
+            "id": 4,
+            "userId": 3,
+            "groupId": 1
+        },
+        {
+            "id": 5,
+            "userId": 4,
+            "groupId": 1
+        },
+        {
+            "id": 6,
+            "userId": 5,
+            "groupId": 2
+        },
+        {
+            "id": 7,
+            "userId": 6,
+            "groupId": 2
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "name": "Among Us",
+            "typeId": 1,
+            "maxPlayers": 8,
+            "imageBanner": "",
+            "imageHeader": ""
+        },
+        {
+            "id": 2,
+            "name": "Helldivers 2",
+            "typeId": 1,
+            "maxPlayers": 4,
+            "imageBanner": "",
+            "imageHeader": ""
+        }
+    ],
+    "types": [
+        {
+            "id": 1,
+            "name": "PC"
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "genre": "Social Deduction"
+        },
+        {
+            "id": 2,
+            "genre": "Third Person Shooter"
+        },
+        {
+            "id": 3,
+            "genre": "PvP"
+        },
+        {
+            "id": 4,
+            "genre": "PvE"
+        }
+    ],
+    "gameGenres": [
+        {
+            "id": 1,
+            "gameId": 1,
+            "genreId": 1
+        },
+        {
+            "id": 2,
+            "gameId": 1,
+            "genreId": 3
+        },
+        {
+            "id": 3,
+            "gameId": 2,
+            "genreId": 2
+        },
+        {
+            "id": 4,
+            "gameId": 2,
+            "genreId": 4
+        }
+    ],
+    "userGames": [
+        {
+            "id": 1,
+            "userId": 1,
+            "gameId": 1
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "gameId": 2
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "gameId": 2
+        }
+    ],
+    "groupGames": [ 
+        {
+            "id": 1,
+            "groupId": 1,
+            "gameId": 1,
+            "ownedCount": 4
+        },
+        {
+            "id": 2,
+            "groupId": 1,
+            "gameId": 2,
+            "ownedCount": 2
+        },
+        {
+            "id": 3,
+            "groupId": 2,
+            "gameId": 1,
+            "ownedCount": 3
+        },
+        {
+            "id": 4,
+            "groupId": 2,
+            "gameId": 2,
+            "ownedCount": 1
+        }
+    ]
+}
