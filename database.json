@@ -194,10 +194,17 @@
     {
       "id": 2,
       "name": "Helldivers 2",
-      "typeId": 1,
+      "typeId": 3,
       "maxPlayers": 4,
       "imageBanner": "",
-      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg?t=1709666906"
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg?t=1709666906",
+      "gameGenres": [
+        {
+          "id": 4,
+          "gameId": 2,
+          "genreId": 5
+        }
+      ]
     },
     {
       "id": 3,
@@ -574,18 +581,8 @@
     },
     {
       "userId": 1,
-      "gameId": 5,
-      "id": 19
-    },
-    {
-      "userId": 1,
       "gameId": 4,
       "id": 20
-    },
-    {
-      "userId": 1,
-      "gameId": 9,
-      "id": 21
     },
     {
       "userId": 1,
@@ -596,16 +593,6 @@
       "userId": 1,
       "gameId": 3,
       "id": 23
-    },
-    {
-      "userId": 1,
-      "gameId": 11,
-      "id": 24
-    },
-    {
-      "userId": 1,
-      "gameId": 16,
-      "id": 25
     },
     {
       "userId": 1,
@@ -626,11 +613,6 @@
       "userId": 1,
       "gameId": 12,
       "id": 29
-    },
-    {
-      "userId": 1,
-      "gameId": 14,
-      "id": 30
     },
     {
       "userId": 1,
