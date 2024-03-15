@@ -1,346 +1,558 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Hobbes",
-            "email": "hobbes@example.com",
-            "isStaff": true
-        },
-        {
-            "id": 2,
-            "name": "Ichigo",
-            "email": "ichigo@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 3,
-            "name": "Flux",
-            "email": "flux@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 4,
-            "name": "Yoru",
-            "email": "yoruhime@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 5,
-            "name": "Crimson",
-            "email": "crimbird@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 6,
-            "name": "Duck Paulson",
-            "email": "duckduck@example.com",
-            "isStaff": false
-        }
-    ],
-    "players": [
-        {
-            "id": 1,
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "userId": 2
-        },
-        {
-            "id": 3,
-            "userId": 3
-        },
-        {
-            "id": 4,
-            "userId": 4
-        },
-        {
-            "id": 5,
-            "userId": 5
-        },
-        {
-            "id": 6,
-            "userId": 6
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "userId": 1
-        }
-    ],
-    "groups": [
-        {
-            "id": 1,
-            "name": "Brilliant Idiots"
-        },
-        {
-            "id": 2,
-            "name": "Trundletown Trio"
-        }
-    ],
-    "userGroups": [
-        {
-            "id": 1,
-            "userId": 1,
-            "groupId": 1
-        },
-        {
-            "id": 2,
-            "userId": 1,
-            "groupId": 2
-        },
-        {
-            "id": 3,
-            "userId": 2,
-            "groupId": 1
-        },
-        {
-            "id": 4,
-            "userId": 3,
-            "groupId": 1
-        },
-        {
-            "id": 5,
-            "userId": 4,
-            "groupId": 1
-        },
-        {
-            "id": 6,
-            "userId": 5,
-            "groupId": 2
-        },
-        {
-            "id": 7,
-            "userId": 6,
-            "groupId": 2
-        }
-    ],
-    "games": [
-        {
-            "id": 1,
-            "name": "Among Us",
-            "typeId": 1,
-            "maxPlayers": 8,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698177355"
-        },
-        {
-            "id": 2,
-            "name": "Helldivers 2",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg?t=1709666906"
-        },
-        {
-            "id": 3,
-            "name": "Lethal Company",
-            "typeId": 1,
-            "maxPlayers": 8,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/header_292x136.jpg?t=1700231592"
-        },
-        {
-            "id": 4,
-            "name": "Castle Crashers",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/204360/header.jpg?t=1707857982"
-        },
-        {
-            "id": 5,
-            "name": "Deep Rock Galactic",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/548430/header_alt_assets_21.jpg?t=1709748678"
-        },
-        {
-            "id": 6,
-            "name": "Broforce",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg?t=1710247458"
-        },
-        {
-            "id": 7,
-            "name": "Phasmophobia",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg?t=1702309974"
-        },
-        {
-            "id": 8,
-            "name": "Factorio",
-            "typeId": 1,
-            "maxPlayers": 255,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1694021968"
-        },
-        {
-            "id": 9,
-            "name": "Golf With Your Friends",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/header.jpg?t=1705942679"
-        },
-        {
-            "id": 10,
-            "name": "Gunfire Reborn",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/header.jpg?t=1706065115"
-        },
-        {
-            "id": 11,
-            "name": "Move or Die",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/323850/header.jpg?t=1702465813"
-        },
-        {
-            "id": 12,
-            "name": "Risk of Rain 2",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/header.jpg?t=1699992764"
-        },
-        {
-            "id": 13,
-            "name": "Splitgate",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/677620/header.jpg?t=1663343172"
-        },
-        {
-            "id": 14,
-            "name": "Spelunky 2",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/418530/header.jpg?t=1663719294"
-        },
-        {
-            "id": 15,
-            "name": "PlateUp!",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1599600/header.jpg?t=1709818408"
-        },
-        {
-            "id": 16,
-            "name": "Overcooked! 2",
-            "typeId": 1,
-            "maxPlayers": 4,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg?t=1706873645"
-        },
-        {
-            "id": 17,
-            "name": "PICO PARK",
-            "typeId": 1,
-            "maxPlayers": 8,
-            "imageBanner": "",
-            "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1509960/header.jpg?t=1704797148"
-        }
-    ],
-    "types": [
-        {
-            "id": 1,
-            "name": "PC"
-        }
-    ],
-    "genres": [
-        {
-            "id": 1,
-            "genre": "Social Deduction"
-        },
-        {
-            "id": 2,
-            "genre": "Third Person Shooter"
-        },
-        {
-            "id": 3,
-            "genre": "PvP"
-        },
-        {
-            "id": 4,
-            "genre": "PvE"
-        }
-    ],
-    "gameGenres": [
-        {
-            "id": 1,
-            "gameId": 1,
-            "genreId": 1
-        },
-        {
-            "id": 2,
-            "gameId": 1,
-            "genreId": 3
-        },
-        {
-            "id": 3,
-            "gameId": 2,
-            "genreId": 2
-        },
-        {
-            "id": 4,
-            "gameId": 2,
-            "genreId": 4
-        }
-    ],
-    "userGames": [
-        {
-            "id": 1,
-            "userId": 1,
-            "gameId": 1
-        },
-        {
-            "id": 2,
-            "userId": 1,
-            "gameId": 2
-        },
-        {
-            "id": 3,
-            "userId": 3,
-            "gameId": 2
-        }
-    ],
-    "groupGames": [ 
-        {
-            "id": 1,
-            "groupId": 1,
-            "gameId": 1,
-            "ownedCount": 4
-        },
-        {
-            "id": 2,
-            "groupId": 1,
-            "gameId": 2,
-            "ownedCount": 2
-        },
-        {
-            "id": 3,
-            "groupId": 2,
-            "gameId": 1,
-            "ownedCount": 3
-        },
-        {
-            "id": 4,
-            "groupId": 2,
-            "gameId": 2,
-            "ownedCount": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Hobbes",
+      "email": "hobbes@example.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Ichigo",
+      "email": "ichigo@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Flux",
+      "email": "flux@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Yoru",
+      "email": "yoruhime@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Crimson",
+      "email": "crimbird@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Duck Paulson",
+      "email": "duckduck@example.com",
+      "isStaff": false
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "userId": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Brilliant Idiots"
+    },
+    {
+      "id": 2,
+      "name": "Trundletown Trio"
+    }
+  ],
+  "userGroups": [
+    {
+      "id": 1,
+      "userId": 1,
+      "groupId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "groupId": 2
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "groupId": 1
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "groupId": 1
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "groupId": 1
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "groupId": 2
+    },
+    {
+      "id": 7,
+      "userId": 6,
+      "groupId": 2
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "Among Us",
+      "typeId": 1,
+      "maxPlayers": 8,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698177355"
+    },
+    {
+      "id": 2,
+      "name": "Helldivers 2",
+      "typeId": 3,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg?t=1709666906"
+    },
+    {
+      "id": 3,
+      "name": "Lethal Company",
+      "typeId": 1,
+      "maxPlayers": 8,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/header_292x136.jpg?t=1700231592"
+    },
+    {
+      "id": 4,
+      "name": "Castle Crashers",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/204360/header.jpg?t=1707857982"
+    },
+    {
+      "id": 5,
+      "name": "Deep Rock Galactic",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/548430/header_alt_assets_21.jpg?t=1709748678"
+    },
+    {
+      "id": 6,
+      "name": "Broforce",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg?t=1710247458"
+    },
+    {
+      "id": 7,
+      "name": "Phasmophobia",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg?t=1702309974"
+    },
+    {
+      "id": 8,
+      "name": "Factorio",
+      "typeId": 1,
+      "maxPlayers": 255,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1694021968"
+    },
+    {
+      "id": 9,
+      "name": "Golf With Your Friends",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/header.jpg?t=1705942679"
+    },
+    {
+      "id": 10,
+      "name": "Gunfire Reborn",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/header.jpg?t=1706065115"
+    },
+    {
+      "id": 11,
+      "name": "Move or Die",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/323850/header.jpg?t=1702465813"
+    },
+    {
+      "id": 12,
+      "name": "Risk of Rain 2",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/header.jpg?t=1699992764"
+    },
+    {
+      "id": 13,
+      "name": "Splitgate",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/677620/header.jpg?t=1663343172"
+    },
+    {
+      "id": 14,
+      "name": "Spelunky 2",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/418530/header.jpg?t=1663719294"
+    },
+    {
+      "id": 15,
+      "name": "PlateUp!",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1599600/header.jpg?t=1709818408"
+    },
+    {
+      "id": 16,
+      "name": "Overcooked! 2",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg?t=1706873645"
+    },
+    {
+      "id": 17,
+      "name": "PICO PARK",
+      "typeId": 1,
+      "maxPlayers": 8,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1509960/header.jpg?t=1704797148"
+    },
+    {
+      "id": 18,
+      "name": "Borderlands 3",
+      "typeId": 1,
+      "maxPlayers": 3,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg?t=1693524259"
+    },
+    {
+      "id": 19,
+      "name": "Nightingale",
+      "typeId": 1,
+      "maxPlayers": 4,
+      "imageBanner": "",
+      "imageHeader": "https://cdn.cloudflare.steamstatic.com/steam/apps/1928980/header.jpg?t=1708532666"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "PC"
+    },
+    {
+      "id": 2,
+      "name": "Switch"
+    },
+    {
+      "id": 3,
+      "name": "PS5"
+    },
+    {
+      "id": 4,
+      "name": "XS S|X"
+    },
+    {
+      "id": 5,
+      "name": "PS4"
+    },
+    {
+      "id": 6,
+      "name": "Xbox One"
+    },
+    {
+      "id": 7,
+      "name": "Card Game"
+    },
+    {
+      "id": 8,
+      "name": "Trading Card Game"
+    },
+    {
+      "id": 9,
+      "name": "Board Game"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "genre": "Social Deduction"
+    },
+    {
+      "id": 2,
+      "genre": "Third Person Shooter"
+    },
+    {
+      "id": 3,
+      "genre": "First Person Shooter"
+    },
+    {
+      "id": 4,
+      "genre": "PvP"
+    },
+    {
+      "id": 5,
+      "genre": "PvE"
+    }
+  ],
+  "gameGenres": [
+    {
+      "id": 4,
+      "gameId": 2,
+      "genreId": 5
+    },
+    {
+      "gameId": 18,
+      "genreId": 5,
+      "id": 6
+    },
+    {
+      "gameId": 19,
+      "genreId": 5,
+      "id": 7
+    },
+    {
+      "gameId": 18,
+      "genreId": 3,
+      "id": 8
+    },
+    {
+      "gameId": 6,
+      "genreId": 5,
+      "id": 9
+    },
+    {
+      "gameId": 4,
+      "genreId": 4,
+      "id": 10
+    },
+    {
+      "gameId": 4,
+      "genreId": 5,
+      "id": 11
+    },
+    {
+      "gameId": 5,
+      "genreId": 3,
+      "id": 12
+    },
+    {
+      "gameId": 5,
+      "genreId": 5,
+      "id": 13
+    },
+    {
+      "gameId": 10,
+      "genreId": 3,
+      "id": 14
+    },
+    {
+      "gameId": 10,
+      "genreId": 5,
+      "id": 15
+    },
+    {
+      "gameId": 3,
+      "genreId": 3,
+      "id": 16
+    },
+    {
+      "gameId": 3,
+      "genreId": 5,
+      "id": 17
+    },
+    {
+      "gameId": 1,
+      "genreId": 4,
+      "id": 18
+    },
+    {
+      "gameId": 1,
+      "genreId": 1,
+      "id": 19
+    }
+  ],
+  "userGames": [
+    {
+      "id": 2,
+      "userId": 1,
+      "gameId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "gameId": 2
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "gameId": 3
+    },
+    {
+      "userId": 3,
+      "gameId": 12,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "gameId": 4,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "gameId": 13,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "gameId": 1,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "gameId": 1,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "gameId": 3,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "gameId": 7,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "gameId": 17,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "gameId": 1,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "gameId": 18,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "gameId": 6,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "gameId": 8,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "gameId": 4,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "gameId": 10,
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "gameId": 3,
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "gameId": 7,
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "gameId": 17,
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "gameId": 15,
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "gameId": 12,
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "gameId": 13,
+      "id": 31
+    },
+    {
+      "userId": 1,
+      "gameId": 5,
+      "id": 32
+    }
+  ],
+  "groupGames": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "gameId": 1,
+      "ownedCount": 4
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "gameId": 2,
+      "ownedCount": 2
+    },
+    {
+      "id": 3,
+      "groupId": 2,
+      "gameId": 1,
+      "ownedCount": 3
+    },
+    {
+      "id": 4,
+      "groupId": 2,
+      "gameId": 2,
+      "ownedCount": 1
+    }
+  ]
 }
