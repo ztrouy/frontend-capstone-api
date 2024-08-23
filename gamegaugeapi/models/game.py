@@ -1,5 +1,5 @@
 from django.db import models
-from .format import Format
+from .platform import Platform
 from django.core.validators import MinValueValidator
 
 
@@ -12,9 +12,9 @@ class Game(models.Model):
         through="GameGenre",
         related_name="games"
     )
-    formats = models.ManyToManyField(
-        "Format",
-        through="GameFormat",
+    platforms = models.ManyToManyField(
+        "Platform",
+        through="GamePlatform",
         related_name="games"
     )
 

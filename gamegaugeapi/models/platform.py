@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Format(models.Model):
+class Platform(models.Model):
     name = models.CharField(max_length=30)
 
 
