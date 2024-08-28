@@ -5,3 +5,4 @@ from .group import Group
 from .game_platform import GamePlatform
 from .game_genre import GameGenre
 from .user_group import UserGroup
+from .user_game import UserGame
