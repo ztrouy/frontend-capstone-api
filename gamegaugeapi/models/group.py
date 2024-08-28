@@ -1,12 +1,15 @@
 from django.db import models
+from django.db.models import Count, Q
+from django.contrib.auth.models import User
+from .game import Game
 
 
 class Group(models.Model):
     name = models.CharField(max_length=50)
-    users = models.ManyToManyField(
-        "User",
+    members = models.ManyToManyField(
+        User,
         through="UserGroup",
-        related_name="groups"
+        related_name="joined_groups"
     )
 
 
