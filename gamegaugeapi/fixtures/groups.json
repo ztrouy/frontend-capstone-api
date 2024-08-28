@@ -1,0 +1,44 @@
+[
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 1,
+        "fields": {
+            "name": "Brilliant Idiots"
+        }
+    },
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 2,
+        "fields": {
+            "name": "Trundletown Trio"
+        }
+    },
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 3,
+        "fields": {
+            "name": "Blasphemous Badgers"
+        }
+    },
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 4,
+        "fields": {
+            "name": "TBLCoSaaG"
+        }
+    },
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 5,
+        "fields": {
+            "name": "Third Wheel"
+        }
+    },
+    {
+        "model": "gamegaugeapi.group",
+        "pk": 6,
+        "fields": {
+            "name": "Additional Group"
+        }
+    }
+]

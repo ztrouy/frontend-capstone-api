@@ -1,0 +1,51 @@
+[
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 1,
+        "fields": {
+            "name": "PC"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 2,
+        "fields": {
+            "name": "Switch"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 3,
+        "fields": {
+            "name": "PS4"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 4,
+        "fields": {
+            "name": "PS5"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 5,
+        "fields": {
+            "name": "Xbox One"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 6,
+        "fields": {
+            "name": "Xbox Series S|X"
+        }
+    },
+    {
+        "model": "gamegaugeapi.platform",
+        "pk": 7,
+        "fields": {
+            "name": "Phone"
+        }
+    }
+]

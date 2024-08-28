@@ -1,0 +1,1602 @@
+[
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 2,
+        "fields": {
+            "game": 1,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 3,
+        "fields": {
+            "game": 1,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 4,
+        "fields": {
+            "game": 1,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 5,
+        "fields": {
+            "game": 1,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 6,
+        "fields": {
+            "game": 1,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 7,
+        "fields": {
+            "game": 1,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 8,
+        "fields": {
+            "game": 2,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 9,
+        "fields": {
+            "game": 2,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 10,
+        "fields": {
+            "game": 3,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 11,
+        "fields": {
+            "game": 4,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 12,
+        "fields": {
+            "game": 4,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 13,
+        "fields": {
+            "game": 4,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 14,
+        "fields": {
+            "game": 4,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 15,
+        "fields": {
+            "game": 4,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 16,
+        "fields": {
+            "game": 4,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 17,
+        "fields": {
+            "game": 5,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 18,
+        "fields": {
+            "game": 6,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 19,
+        "fields": {
+            "game": 6,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 20,
+        "fields": {
+            "game": 6,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 21,
+        "fields": {
+            "game": 6,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 22,
+        "fields": {
+            "game": 6,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 23,
+        "fields": {
+            "game": 6,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 24,
+        "fields": {
+            "game": 7,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 25,
+        "fields": {
+            "game": 8,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 26,
+        "fields": {
+            "game": 8,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 27,
+        "fields": {
+            "game": 9,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 28,
+        "fields": {
+            "game": 9,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 29,
+        "fields": {
+            "game": 9,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 30,
+        "fields": {
+            "game": 9,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 31,
+        "fields": {
+            "game": 9,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 32,
+        "fields": {
+            "game": 9,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 33,
+        "fields": {
+            "game": 10,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 34,
+        "fields": {
+            "game": 11,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 35,
+        "fields": {
+            "game": 11,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 36,
+        "fields": {
+            "game": 11,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 37,
+        "fields": {
+            "game": 12,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 38,
+        "fields": {
+            "game": 12,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 39,
+        "fields": {
+            "game": 12,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 40,
+        "fields": {
+            "game": 12,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 41,
+        "fields": {
+            "game": 12,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 42,
+        "fields": {
+            "game": 12,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 43,
+        "fields": {
+            "game": 13,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 44,
+        "fields": {
+            "game": 14,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 45,
+        "fields": {
+            "game": 14,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 46,
+        "fields": {
+            "game": 14,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 47,
+        "fields": {
+            "game": 14,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 48,
+        "fields": {
+            "game": 14,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 49,
+        "fields": {
+            "game": 14,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 50,
+        "fields": {
+            "game": 15,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 51,
+        "fields": {
+            "game": 15,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 52,
+        "fields": {
+            "game": 15,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 53,
+        "fields": {
+            "game": 15,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 54,
+        "fields": {
+            "game": 15,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 55,
+        "fields": {
+            "game": 15,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 56,
+        "fields": {
+            "game": 16,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 57,
+        "fields": {
+            "game": 16,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 58,
+        "fields": {
+            "game": 16,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 59,
+        "fields": {
+            "game": 16,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 60,
+        "fields": {
+            "game": 16,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 61,
+        "fields": {
+            "game": 16,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 62,
+        "fields": {
+            "game": 17,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 63,
+        "fields": {
+            "game": 17,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 64,
+        "fields": {
+            "game": 18,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 65,
+        "fields": {
+            "game": 18,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 66,
+        "fields": {
+            "game": 18,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 67,
+        "fields": {
+            "game": 18,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 68,
+        "fields": {
+            "game": 18,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 69,
+        "fields": {
+            "game": 18,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 70,
+        "fields": {
+            "game": 19,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 71,
+        "fields": {
+            "game": 20,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 72,
+        "fields": {
+            "game": 21,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 73,
+        "fields": {
+            "game": 21,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 74,
+        "fields": {
+            "game": 21,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 75,
+        "fields": {
+            "game": 21,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 76,
+        "fields": {
+            "game": 21,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 77,
+        "fields": {
+            "game": 21,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 78,
+        "fields": {
+            "game": 21,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 79,
+        "fields": {
+            "game": 22,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 80,
+        "fields": {
+            "game": 23,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 81,
+        "fields": {
+            "game": 23,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 82,
+        "fields": {
+            "game": 23,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 83,
+        "fields": {
+            "game": 23,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 84,
+        "fields": {
+            "game": 24,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 85,
+        "fields": {
+            "game": 25,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 86,
+        "fields": {
+            "game": 25,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 87,
+        "fields": {
+            "game": 25,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 88,
+        "fields": {
+            "game": 26,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 89,
+        "fields": {
+            "game": 27,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 90,
+        "fields": {
+            "game": 28,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 91,
+        "fields": {
+            "game": 29,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 92,
+        "fields": {
+            "game": 29,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 93,
+        "fields": {
+            "game": 29,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 94,
+        "fields": {
+            "game": 29,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 95,
+        "fields": {
+            "game": 29,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 96,
+        "fields": {
+            "game": 29,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 97,
+        "fields": {
+            "game": 30,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 98,
+        "fields": {
+            "game": 30,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 99,
+        "fields": {
+            "game": 30,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 100,
+        "fields": {
+            "game": 31,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 101,
+        "fields": {
+            "game": 31,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 102,
+        "fields": {
+            "game": 31,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 103,
+        "fields": {
+            "game": 31,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 104,
+        "fields": {
+            "game": 31,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 105,
+        "fields": {
+            "game": 31,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 106,
+        "fields": {
+            "game": 31,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 107,
+        "fields": {
+            "game": 32,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 108,
+        "fields": {
+            "game": 33,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 109,
+        "fields": {
+            "game": 33,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 110,
+        "fields": {
+            "game": 34,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 111,
+        "fields": {
+            "game": 34,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 112,
+        "fields": {
+            "game": 34,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 113,
+        "fields": {
+            "game": 34,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 114,
+        "fields": {
+            "game": 34,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 115,
+        "fields": {
+            "game": 34,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 116,
+        "fields": {
+            "game": 34,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 117,
+        "fields": {
+            "game": 35,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 118,
+        "fields": {
+            "game": 35,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 119,
+        "fields": {
+            "game": 35,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 120,
+        "fields": {
+            "game": 35,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 121,
+        "fields": {
+            "game": 35,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 122,
+        "fields": {
+            "game": 35,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 123,
+        "fields": {
+            "game": 36,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 124,
+        "fields": {
+            "game": 36,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 125,
+        "fields": {
+            "game": 36,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 126,
+        "fields": {
+            "game": 36,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 127,
+        "fields": {
+            "game": 36,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 128,
+        "fields": {
+            "game": 36,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 129,
+        "fields": {
+            "game": 37,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 130,
+        "fields": {
+            "game": 37,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 131,
+        "fields": {
+            "game": 37,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 132,
+        "fields": {
+            "game": 38,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 133,
+        "fields": {
+            "game": 39,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 134,
+        "fields": {
+            "game": 40,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 135,
+        "fields": {
+            "game": 40,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 136,
+        "fields": {
+            "game": 40,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 137,
+        "fields": {
+            "game": 40,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 138,
+        "fields": {
+            "game": 40,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 139,
+        "fields": {
+            "game": 40,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 140,
+        "fields": {
+            "game": 41,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 141,
+        "fields": {
+            "game": 41,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 142,
+        "fields": {
+            "game": 41,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 143,
+        "fields": {
+            "game": 41,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 144,
+        "fields": {
+            "game": 41,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 145,
+        "fields": {
+            "game": 42,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 146,
+        "fields": {
+            "game": 42,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 147,
+        "fields": {
+            "game": 42,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 148,
+        "fields": {
+            "game": 42,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 149,
+        "fields": {
+            "game": 42,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 150,
+        "fields": {
+            "game": 43,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 151,
+        "fields": {
+            "game": 43,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 152,
+        "fields": {
+            "game": 43,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 153,
+        "fields": {
+            "game": 43,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 154,
+        "fields": {
+            "game": 43,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 155,
+        "fields": {
+            "game": 44,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 156,
+        "fields": {
+            "game": 44,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 157,
+        "fields": {
+            "game": 44,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 158,
+        "fields": {
+            "game": 44,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 159,
+        "fields": {
+            "game": 44,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 160,
+        "fields": {
+            "game": 45,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 161,
+        "fields": {
+            "game": 45,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 162,
+        "fields": {
+            "game": 45,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 163,
+        "fields": {
+            "game": 45,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 164,
+        "fields": {
+            "game": 45,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 165,
+        "fields": {
+            "game": 46,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 166,
+        "fields": {
+            "game": 46,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 167,
+        "fields": {
+            "game": 46,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 168,
+        "fields": {
+            "game": 47,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 169,
+        "fields": {
+            "game": 47,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 170,
+        "fields": {
+            "game": 47,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 171,
+        "fields": {
+            "game": 48,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 172,
+        "fields": {
+            "game": 48,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 173,
+        "fields": {
+            "game": 48,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 174,
+        "fields": {
+            "game": 48,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 175,
+        "fields": {
+            "game": 48,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 176,
+        "fields": {
+            "game": 49,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 177,
+        "fields": {
+            "game": 49,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 178,
+        "fields": {
+            "game": 49,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 179,
+        "fields": {
+            "game": 50,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 180,
+        "fields": {
+            "game": 51,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 181,
+        "fields": {
+            "game": 51,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 182,
+        "fields": {
+            "game": 52,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 183,
+        "fields": {
+            "game": 52,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 184,
+        "fields": {
+            "game": 52,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 185,
+        "fields": {
+            "game": 53,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 186,
+        "fields": {
+            "game": 53,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 187,
+        "fields": {
+            "game": 53,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 188,
+        "fields": {
+            "game": 53,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 189,
+        "fields": {
+            "game": 53,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 190,
+        "fields": {
+            "game": 53,
+            "platform": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 191,
+        "fields": {
+            "game": 53,
+            "platform": 7
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 192,
+        "fields": {
+            "game": 54,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 193,
+        "fields": {
+            "game": 55,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 194,
+        "fields": {
+            "game": 56,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 195,
+        "fields": {
+            "game": 57,
+            "platform": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 196,
+        "fields": {
+            "game": 57,
+            "platform": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 197,
+        "fields": {
+            "game": 57,
+            "platform": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 198,
+        "fields": {
+            "game": 57,
+            "platform": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 199,
+        "fields": {
+            "game": 57,
+            "platform": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.gameplatform",
+        "pk": 200,
+        "fields": {
+            "game": 57,
+            "platform": 6
+        }
+    }
+]
