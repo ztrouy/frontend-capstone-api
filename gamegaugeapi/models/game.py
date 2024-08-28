@@ -1,5 +1,5 @@
 from django.db import models
-from .platform import Platform
+from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator
 
 
@@ -15,6 +15,11 @@ class Game(models.Model):
     platforms = models.ManyToManyField(
         "Platform",
         through="GamePlatform",
+        related_name="games"
+    )
+    owners = models.ManyToManyField(
+        User,
+        through="UserGame",
         related_name="games"
     )
 
