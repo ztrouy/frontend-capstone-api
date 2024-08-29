@@ -1,10 +1,11 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from gamegaugeapi.views import UserViewSet, GenreViewSet, PlatformViewSet
+from gamegaugeapi.views import UserViewSet, GameViewSet, GenreViewSet, PlatformViewSet
 
 router = routers.DefaultRouter(trailing_slash=False)
 
+router.register(r"games", GameViewSet, "game")
 router.register(r"genres", GenreViewSet, "genre")
 router.register(r"platforms", PlatformViewSet, "platform")
 
