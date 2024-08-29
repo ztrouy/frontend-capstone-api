@@ -100,3 +100,13 @@ class GameViewSet(viewsets.ViewSet):
 
         except Game.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def destroy(self, request, pk=None):
+        try:
+            game = Game.objects.get(pk=pk)
+            game.delete()
+
+            return Response(status=status.HTTP_204_NO_CONTENT)
+
+        except Game.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
