@@ -1,0 +1,146 @@
+[
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "group": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "group": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "group": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "group": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "group": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "group": 6
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 7,
+        "fields": {
+            "user": 2,
+            "group": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 8,
+        "fields": {
+            "user": 3,
+            "group": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 9,
+        "fields": {
+            "user": 4,
+            "group": 1
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 10,
+        "fields": {
+            "user": 5,
+            "group": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 11,
+        "fields": {
+            "user": 6,
+            "group": 2
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 12,
+        "fields": {
+            "user": 7,
+            "group": 3
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 13,
+        "fields": {
+            "user": 8,
+            "group": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 14,
+        "fields": {
+            "user": 9,
+            "group": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 15,
+        "fields": {
+            "user": 10,
+            "group": 4
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 16,
+        "fields": {
+            "user": 11,
+            "group": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 17,
+        "fields": {
+            "user": 12,
+            "group": 5
+        }
+    },
+    {
+        "model": "gamegaugeapi.usergroup",
+        "pk": 18,
+        "fields": {
+            "user": 13,
+            "group": 6
+        }
+    }
+]
