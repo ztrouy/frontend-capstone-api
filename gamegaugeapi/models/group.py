@@ -15,3 +15,16 @@ class Group(models.Model):
 
     def __str__(self):
         return self.name
+
+
+    def get_common_games(self):
+        member_count = self.members.count()
+
+        common_games = Game.objects.annotate(
+            num_owners=Count("usergame", filter=Q(usergame__user__in=self.members.all()))
+        ).filter(
+            num_owners=member_count,
+            max_players__gte=member_count
+        )
+
+        return common_games
