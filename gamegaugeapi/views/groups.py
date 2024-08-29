@@ -57,3 +57,14 @@ class GroupViewSet(viewsets.ViewSet):
     
         except Group.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def create(self, request):
+        group = Group.objects.create(
+            name = request.data.get("name")
+        )
+
+        user_id = request.auth.user.id
+        group.members.add(user_id)
+
+        serializer = GroupSerializer(group, context={"request": request})
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
