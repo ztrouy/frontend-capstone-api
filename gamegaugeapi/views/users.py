@@ -64,3 +64,8 @@ class UserViewSet(viewsets.ViewSet):
 
         except Token.DoesNotExist:
             return Response({"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED)
+
+    def list(self, request):
+        users = User.objects.all()
+        serializer = UserSerializer(users, many=True, context={"request": request})
+        return Response(serializer.data, status=status.HTTP_200_OK)
