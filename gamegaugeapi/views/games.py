@@ -23,3 +23,19 @@ class GameSerializer(serializers.ModelSerializer):
         rep["maxPlayers"] = rep.pop("max_players")
         rep["imageHeader"] = rep.pop("image_header")
         return rep
+
+
+class GameViewSet(viewsets.ViewSet):
+    def list(self, request):
+        games = Game.objects.all()
+        serializer = GameSerializer(games, many=True, context={"request": request})
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def retrieve(self, request, pk=None):
+        try:
+            game = Game.objects.get(pk=pk)
+            serializer = GameSerializer(game, context={"request": request})
+            return Response(serializer.data, status=status.HTTP_200_OK)
+    
+        except Game.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
