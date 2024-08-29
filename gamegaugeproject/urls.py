@@ -9,6 +9,7 @@ router.register(r"games", GameViewSet, "game")
 router.register(r"groups", GroupViewSet, "group")
 router.register(r"genres", GenreViewSet, "genre")
 router.register(r"platforms", PlatformViewSet, "platform")
+router.register(r"users", UserViewSet, "user")
 
 urlpatterns = [
     path('', include(router.urls)),
