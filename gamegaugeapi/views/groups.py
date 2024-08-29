@@ -90,3 +90,13 @@ class GroupViewSet(viewsets.ViewSet):
 
         except Group.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def destroy(self, request, pk=None):
+        try:
+            group = Group.objects.get(pk=pk)
+            group.delete()
+
+            return Response(status=status.HTTP_204_NO_CONTENT)
+
+        except Group.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
