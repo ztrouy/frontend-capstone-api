@@ -43,6 +43,11 @@ class GroupDetailedSerializer(serializers.ModelSerializer):
         return GameSerializer(games, many=True, context={"request": self.context["request"]}).data
 
 
+class GroupUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Group
+        fields = ["name"]
+
 class GroupViewSet(viewsets.ViewSet):
     def list(self, request):
         groups = Group.objects.all()
@@ -68,3 +73,20 @@ class GroupViewSet(viewsets.ViewSet):
 
         serializer = GroupSerializer(group, context={"request": request})
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        try:
+            group = Group.objects.get(pk=pk)
+
+            serializer = GroupUpdateSerializer(group, data=request.data)
+            if serializer.is_valid():
+                group.name = serializer.validated_data["name"]
+                group.save()
+
+                serializer = GroupSerializer(group, context={"request": request})
+                return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+        except Group.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
