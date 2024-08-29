@@ -1,6 +1,6 @@
 from rest_framework import viewsets, status, serializers
 from rest_framework.response import Response
-from gamegaugeapi.models import Game
+from gamegaugeapi.models import Game, Genre, Platform
 from .genres import GenreSerializer
 from .platforms import PlatformSerializer
 
@@ -39,3 +39,19 @@ class GameViewSet(viewsets.ViewSet):
     
         except Game.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def create(self, request):
+        game = Game.objects.create(
+            name = request.data.get("name"),
+            max_players = request.data.get("maxPlayers"),
+            image_header = request.data.get("imageHeader")
+        )
+
+        genre_ids = request.data.get("genres", [])
+        game.genres.set(genre_ids)
+
+        platform_ids = request.data.get("platforms", [])
+        game.platforms.set(platform_ids)
+
+        serializer = GameSerializer(game, context={"request": request})
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
