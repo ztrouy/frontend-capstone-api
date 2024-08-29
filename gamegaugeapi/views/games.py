@@ -25,6 +25,26 @@ class GameSerializer(serializers.ModelSerializer):
         return rep
 
 
+class GameUpdateSerializer(serializers.ModelSerializer):
+    genres = serializers.PrimaryKeyRelatedField(many=True, queryset=Genre.objects.all())
+    platforms = serializers.PrimaryKeyRelatedField(many=True, queryset=Platform.objects.all())
+
+    class Meta:
+        model = Game
+        fields = ["id", "name", "max_players", "image_header", "genres", "platforms"]
+
+    def to_internal_value(self, data):
+        data = {
+            "id": data.get("id"),
+            "name": data.get("name"),
+            "max_players": data.get("maxPlayers"),
+            "image_header": data.get("imageHeader"),
+            "genres": data.get("genres"),
+            "platforms": data.get("platforms")
+        }
+        return super().to_internal_value(data)
+
+
 class GameViewSet(viewsets.ViewSet):
     def list(self, request):
         games = Game.objects.all()
@@ -55,3 +75,28 @@ class GameViewSet(viewsets.ViewSet):
 
         serializer = GameSerializer(game, context={"request": request})
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        try:
+            game = Game.objects.get(pk=pk)
+
+            serializer = GameUpdateSerializer(game, data=request.data)
+            if serializer.is_valid():
+                game.name = serializer.validated_data["name"]
+                game.max_players = serializer.validated_data["max_players"]
+                game.image_header = serializer.validated_data["image_header"]
+                game.save()
+
+                genre_ids = request.data.get("genres", [])
+                game.genres.set(genre_ids)
+
+                platform_ids = request.data.get("platforms", [])
+                game.platforms.set(platform_ids)
+
+                serializer = GameSerializer(game, context={"request": request})
+                return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+        except Game.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
