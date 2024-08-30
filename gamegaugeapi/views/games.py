@@ -112,16 +112,25 @@ class GameViewSet(viewsets.ViewSet):
         except Game.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
 
-    @action(detail=True, methods=["post"], url_path="own")
-    def own_game(self, request, pk=None):
+    @action(detail=True, methods=["post", "delete"], url_path="own")
+    def manage_ownership(self, request, pk=None):
         user = request.auth.user
         try:
             game = Game.objects.get(pk=pk)
-            if user.usergame_set.filter(game=game).exists():
-                return Response({"details": "You already own this game"}, status=status.HTTP_400_BAD_REQUEST)
 
-            user.games.add(game.id)
-            return Response(status=status.HTTP_201_CREATED)
+            if request.method == "POST":
+                if user.usergame_set.filter(game=game).exists():
+                    return Response({"details": "You already own this game"}, status=status.HTTP_400_BAD_REQUEST)
+
+                user.games.add(game.id)
+                return Response(status=status.HTTP_201_CREATED)
+
+            elif request.method == "DELETE":
+                if user.usergame_set.filter(game=game).exists():
+                    user.games.remove(game.id)
+                    return Response(status=status.HTTP_204_NO_CONTENT)
+
+                return Response({"details": "You do not own that game"}, status=status.HTTP_400_BAD_REQUEST)
 
         except Game.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
