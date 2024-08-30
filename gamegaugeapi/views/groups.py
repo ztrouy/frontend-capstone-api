@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status, serializers
 from rest_framework.response import Response
 from rest_framework.decorators import action
-from gamegaugeapi.models import Group
+from gamegaugeapi.models import Group, UserGroup, Game
 from .users import UserSerializer
 from .games import GameSerializer
 
@@ -113,6 +113,21 @@ class GroupViewSet(viewsets.ViewSet):
 
             group.members.add(user.id)
             return Response(status=status.HTTP_201_CREATED)
+
+        except Group.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+    @action(detail=True, methods=["delete"], url_path="leave")
+    def leave_group(self, request, pk=None):
+        try:
+            user = request.auth.user
+            group = Group.objects.get(pk=pk)
+
+            if user.usergroup_set.filter(group=group).exists():
+                group.members.remove(user.id)
+                return Response(status=status.HTTP_204_NO_CONTENT)
+
+            return Response({"details": "You are not a member of this group"}, status=status.HTTP_400_BAD_REQUEST)
 
         except Group.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
