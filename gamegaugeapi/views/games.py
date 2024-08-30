@@ -1,5 +1,6 @@
 from rest_framework import viewsets, status, serializers
 from rest_framework.response import Response
+from rest_framework.decorators import action
 from gamegaugeapi.models import Game, Genre, Platform
 from .genres import GenreSerializer
 from .platforms import PlatformSerializer
@@ -107,6 +108,29 @@ class GameViewSet(viewsets.ViewSet):
             game.delete()
 
             return Response(status=status.HTTP_204_NO_CONTENT)
+
+        except Game.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+    @action(detail=True, methods=["post", "delete"], url_path="own")
+    def manage_ownership(self, request, pk=None):
+        user = request.auth.user
+        try:
+            game = Game.objects.get(pk=pk)
+
+            if request.method == "POST":
+                if user.usergame_set.filter(game=game).exists():
+                    return Response({"details": "You already own this game"}, status=status.HTTP_400_BAD_REQUEST)
+
+                user.games.add(game.id)
+                return Response(status=status.HTTP_201_CREATED)
+
+            elif request.method == "DELETE":
+                if user.usergame_set.filter(game=game).exists():
+                    user.games.remove(game.id)
+                    return Response(status=status.HTTP_204_NO_CONTENT)
+
+                return Response({"details": "You do not own that game"}, status=status.HTTP_400_BAD_REQUEST)
 
         except Game.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
