@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status, serializers
 from rest_framework.response import Response
 from rest_framework.decorators import action
-from gamegaugeapi.models import Group, UserGroup, Game
+from gamegaugeapi.models import Group
 from .users import UserSerializer
 from .games import GameSerializer
 
@@ -48,6 +48,7 @@ class GroupUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Group
         fields = ["name"]
+
 
 class GroupViewSet(viewsets.ViewSet):
     def list(self, request):
