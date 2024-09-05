@@ -55,6 +55,12 @@ class UserDetailedSerializer(serializers.ModelSerializer):
         return rep
 
 
+class UserUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ["username"]
+
+
 class UserViewSet(viewsets.ViewSet):
     queryset = User.objects.all()
     permission_classes = [permissions.AllowAny]
@@ -113,4 +119,24 @@ class UserViewSet(viewsets.ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
 
         except User.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def update(self, request, pk=None):
+        try:
+            user = User.objects.get(pk=pk)
+
+            if user != request.auth.user:
+                return Response(status=status.HTTP_401_UNAUTHORIZED)
+
+            serializer = UserUpdateSerializer(user, data=request.data)
+            if serializer.is_valid():
+                user.username = serializer.validated_data["username"]
+                user.save()
+
+                serializer = UserSerializer(user, context={"request": request})
+                return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+        except user.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
